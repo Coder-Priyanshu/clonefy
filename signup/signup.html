@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+</head>
+<body>
+    <div class="sign_up_first_div">
+    <div>
+        <img class="logoimg" src="clonefy logo.jpg" alt="Cant't load">
+    </div>
+    <div>
+        <h2 class="heading">Sign up for free to start listening.</h2>
+    </div><div>
+        
+    <div><button class="btn1 facebookBtn mt-1"><i class="fa-brands fa-facebook"></i> Sign up with Facebook</button>
+    </div>
+    <div>
+        <button class="btn2" ><span>
+            <img class="google" src="google.png" alt="">
+        </span> Sign up with Google</button>
+    </div>
+    <hr class="divide_line">    
+</div>
+<div>
+<nav><h5>Sign up with your email address</h5></nav>
+<form method="post" action="">
+<nav class="email_details">
+
+ <tr>
+    <td>
+        <p class="p1">What's your Email</p>
+        <input class="value_size_box" type="email" name="email" placeholder="Enter your email" required id="email"></td>
+ </tr>
+ <tr>
+    <p class="p1">Create a password</p>
+    <td><input type="password" class="value_size_box" name="password" placeholder="Enter password" required id="password"></td>
+ </tr>
+ <tr>
+    <p class="p1"> What should we call you </p>
+    <td><input type="text" class="value_size_box" name= "profile" placeholder="Enter user name " required id="name"></td>
+ </tr>
+ <tr><td>
+    <p class="p1"> What's your data of birth</p>
+    <input type="date" class="value_size_box" name="dob", required id="birthdate">
+ </td></tr>
+ <tr>
+    <p class="p1">What's your gender</p>
+    <td><input class="g1" type="radio" name="gender" required>Male</td>
+    <td><input class="g1" type="radio" name="gender" required>Female</td>
+    <td><input class="g1" type="radio" name="gender" required>Other</td>
+ </tr>
+ <nav>
+    <br>
+    <p class="p3">By clicking on'Sign up', you agree to clonefy's Terms and Conditions of Use.</p>
+    <p class="p3"> To learn more about how Clonefy collects, uses, shares and protects your personal data, please see Clonefy Privacy Policy.</p>
+ </nav>
+ <tr>
+    <td>
+        <input type="button" class="sign_up_button" value="Sign up"  name="redirect" onclick="storeresult(),verifyresult1()" >
+    </td>
+ </tr>
+
+</nav>
+</form>
+<br>
+<nav>
+    <h6>Have an account? <span target="login/login.html"><a style="color: green;" href="login.html">Log in</a> .</span></h6>
+</nav>
+</div>
+</div>
+    <script
+    src="https://kit.fontawesome.com/8539ff3369.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="login.js"></script>
+</body>
+</html>
